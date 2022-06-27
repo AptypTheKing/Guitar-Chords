@@ -1,0 +1,8 @@
+body {
+    background-image: url('background.jpg')
+}
+
+.img-guitar {
+    max-width: 100%;
+    height: auto;
+}
