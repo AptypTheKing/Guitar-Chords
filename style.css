@@ -1,8 +1,63 @@
+h1 {
+    color: yellowgreen;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+}
+
+.chords {
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.options {
+    position: absolute;
+    top: -50%;
+    display: inline-block;
+}
+
+.btn {
+    background-color: #888a4c;
+    font-size: 48px;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border: 6px solid yellowgreen;
+    border-radius: 35%;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
 body {
-    background-image: url('background.jpg')
+    position: relative;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.guitar {
+    text-align: center;
+    width: 100%
 }
 
 .img-guitar {
-    max-width: 100%;
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
 }
