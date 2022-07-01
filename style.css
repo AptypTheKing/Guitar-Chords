@@ -3,10 +3,6 @@ h1 {
     text-align: center;
 }
 
-main {
-    text-align: center;
-}
-
 .buttons {
     position: relative;
     text-align: center;
@@ -55,8 +51,9 @@ main {
 
 body {
     position: relative;
+    background-color: #291401;
     background-image: url('background.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
