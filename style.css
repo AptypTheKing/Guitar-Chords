@@ -6,6 +6,7 @@ h1 {
 .buttons {
     position: relative;
     text-align: center;
+    z-index: 9999;
 }
 
 .chords {
@@ -65,6 +66,7 @@ body {
 }
 
 .guitar {
+    z-index: 0;
     text-align: center;
     
 }
